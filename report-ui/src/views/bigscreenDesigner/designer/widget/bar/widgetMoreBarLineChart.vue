@@ -522,6 +522,12 @@ export default {
             }
           };
           obj.data = val.series[i].data;
+          // stack
+          if (optionsSetup.stack) {
+            obj.stack = 'x';
+          } else {
+            obj.stack = '';
+          }
           series.push(obj);
         } else if (val.series[i].type == 'line') {
           obj.name = val.series[i].name;

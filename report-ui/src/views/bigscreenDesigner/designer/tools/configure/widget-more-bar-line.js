@@ -103,6 +103,13 @@ export const widgetMoreBarLine = {
               placeholder: '',
               value: 5,
             },
+            {
+              type: 'el-switch',
+              label: '堆积',
+              name: 'stack',
+              required: false,
+              value: true
+            }
           ],
         },
         {
@@ -716,6 +723,7 @@ export const widgetMoreBarLine = {
         chartType: 'widget-barlinechart',
         dictKey: 'BAR_LINE_PROPERTIES',
         relactiveDomValue: 'dynamicData',
+        value: ''
       },
     ],
     // 坐标

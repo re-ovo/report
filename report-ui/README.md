@@ -20,3 +20,8 @@ npm run build:prod
 - [vue-echarts](https://www.npmjs.com/package/vue-echarts/): vue-echarts是封装后的vue插件,基于 ECharts v4.0.1+ 开发
 - [vue-superslide](https://www.npmjs.com/package/vue-super-slider/): Vue-SuperSlide(Github) 是 SuperSlide 的 Vue 封装版本
 - [vuedraggable](https://github.com/SortableJS/Vue.Draggable/): 是一款基于Sortable.js实现的vue拖拽插件。
+
+### 魔改
+1. 柱状图支持堆叠开关
+2. 视频播放器支持自动播放和循环播放的配置
+3. 

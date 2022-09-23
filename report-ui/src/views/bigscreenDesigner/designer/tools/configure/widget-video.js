@@ -28,8 +28,22 @@ export const widgetVideo =  {
           name: 'videoAdress',
           required: false,
           placeholder: '',
-          value: 'https://www.w3school.com.cn//i/movie.ogg',
+          value: 'http://192.168.11.243:8089/media/Jm2020.4a5cc179.mp4',
         },
+        {
+          type: 'el-switch',
+          label: '是否自动播放',
+          name: 'autoplay',
+          required: false,
+          value: true
+        },
+        {
+          type: 'el-switch',
+          label: '是否循环播放',
+          name: 'loop',
+          required: false,
+          value: true
+        }
       ],
       // 数据
       data: [],

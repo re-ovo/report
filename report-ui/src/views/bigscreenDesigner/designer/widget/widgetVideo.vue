@@ -1,7 +1,9 @@
 <template>
-  <video :style="styleColor" :src="styleColor.videoAdress" controls="controls">
+  <div>
+  <video :style="styleColor" :src="styleColor.videoAdress" controls :autoplay="options.setup.autoplay" :loop="options.setup.loop">
     您的浏览器不支持 video 标签。
   </video>
+  </div>
 </template>
 
 <script>

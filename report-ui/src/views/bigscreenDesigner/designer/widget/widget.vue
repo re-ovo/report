@@ -24,6 +24,7 @@
 <script>
 import widgetHref from "./widgetHref.vue";
 import widgetText from "./widgetText.vue";
+import widgetBorder from "./widgetBorder.vue";
 import WidgetMarquee from "./widgetMarquee.vue";
 import widgetTime from "./widgetTime.vue";
 import widgetImage from "./widgetImage.vue";
@@ -50,12 +51,15 @@ import widgetDecoratePieChart from "./decorate/widgetDecoratePieChart";
 import widgetMoreBarLineChart from "./bar/widgetMoreBarLineChart";
 import widgetWordCloud from "./wordcloud/widgetWordCloud";
 import widgetHeatmap from "./heatmap/widgetHeatmap";
+import widgetDecoration from "./widgetDecoration.vue";
 
 export default {
   name: "Widget",
   components: {
     widgetHref,
     widgetText,
+    widgetBorder,
+    widgetDecoration,
     WidgetMarquee,
     widgetTime,
     widgetImage,

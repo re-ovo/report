@@ -13,6 +13,7 @@
 <script>
 import widgetHref from "./widgetHref.vue";
 import widgetText from "./widgetText.vue";
+import widgetBorder from "./widgetBorder.vue";
 import WidgetMarquee from "./widgetMarquee.vue";
 import widgetTime from "./widgetTime.vue";
 import widgetImage from "./widgetImage.vue";
@@ -70,7 +71,8 @@ export default {
     widgetDecoratePieChart,
     widgetMoreBarLineChart,
     widgetWordCloud,
-    widgetHeatmap
+    widgetHeatmap,
+    widgetBorder
   },
   model: {
     prop: "value",

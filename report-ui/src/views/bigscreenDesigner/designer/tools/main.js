@@ -36,10 +36,14 @@ import {widgetDecoratePie} from "./configure/widget-decorate-pie";
 import {widgetMoreBarLine} from "./configure/widget-more-bar-line";
 import {widgetWordCloud} from "./configure/widget-word-cloud";
 import {widgetHeatmap} from "./configure/widget-heatmap";
+import { widgetBorder } from "./configure/widget-border"
+import { widgetDecoration } from "./configure/widget-decoration"
 
 export const widgetTool = [
   // type=html类型的组件
   widgetText,
+  widgetBorder,
+  widgetDecoration,
   widgetMarquee,
   widgetHref,
   widgetTime,

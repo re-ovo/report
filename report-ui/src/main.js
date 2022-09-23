@@ -41,6 +41,10 @@ import Avue from '@smallwei/avue';
 import '@smallwei/avue/lib/index.css';
 Vue.use(Avue);
 
+// DataV
+import dataV from '@jiaminghi/data-view'
+Vue.use(dataV);
+
 // enable element zh-cn
 Vue.use(ElementUI, { zhLocale })
 

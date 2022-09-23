@@ -19,9 +19,9 @@ spring:
   messages:
     basename: i18n/messages
   datasource:
-    url: jdbc:mysql://10.108.26.197:3306/aj_report?characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+    url: jdbc:mysql://127.0.0.1:3306/aj_report?characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
     username: root
-    password: appuser@anji
+    password: root
 
   #如果要使用redis，请参考report-core目录下的README.md文件中写的进行调整
 #  redis:

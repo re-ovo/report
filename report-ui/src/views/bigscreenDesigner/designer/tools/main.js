@@ -38,6 +38,8 @@ import {widgetWordCloud} from "./configure/widget-word-cloud";
 import {widgetHeatmap} from "./configure/widget-heatmap";
 import { widgetBorder } from "./configure/widget-border"
 import { widgetDecoration } from "./configure/widget-decoration"
+import { widgetRankingBoard } from "./configure/widget-ranking-board"
+import { widgetRingChart } from "./configure/widget-ring-chart"
 
 export const widgetTool = [
   // type=html类型的组件
@@ -52,12 +54,14 @@ export const widgetTool = [
   widgetVideo,
   widgetTable,
   widgetIframe,
+  widgetRankingBoard,
   //  widgetUniversal,
   widgetBarchart,
   widgetGradientBarchart,
   widgetLinechart,
   widgetBarlinechart,
   widgetPiechart,
+  widgetRingChart,
   widgetFunnel,
   widgetGauge,
   widgetLineMap,

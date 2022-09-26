@@ -14,7 +14,11 @@ export default {
     },
     data() {
         return {
-            options: {}
+            options: {
+                setup: {
+                  decorationType: 'dv-decoration-1'
+                }
+            }
         };
     },
     computed: {

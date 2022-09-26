@@ -52,6 +52,8 @@ import widgetMoreBarLineChart from "./bar/widgetMoreBarLineChart";
 import widgetWordCloud from "./wordcloud/widgetWordCloud";
 import widgetHeatmap from "./heatmap/widgetHeatmap";
 import widgetDecoration from "./widgetDecoration.vue";
+import widgetRankingBoard from "./widgetRankingBoard.vue";
+import widgetRingChart from "./pie/widgetRingChart.vue";
 
 export default {
   name: "Widget",
@@ -75,6 +77,7 @@ export default {
     WidgetGauge,
     WidgetPieNightingaleRoseArea,
     widgetTable,
+    widgetRankingBoard,
     widgetLineMap,
     widgetPiePercentageChart,
     widgetAirBubbleMap,
@@ -85,7 +88,8 @@ export default {
     widgetDecoratePieChart,
     widgetMoreBarLineChart,
     widgetWordCloud,
-    widgetHeatmap
+    widgetHeatmap,
+    widgetRingChart
   },
   model: {
     prop: "value",

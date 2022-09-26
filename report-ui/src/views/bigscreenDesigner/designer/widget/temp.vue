@@ -40,6 +40,9 @@ import widgetDecoratePieChart from "./decorate/widgetDecoratePieChart";
 import widgetMoreBarLineChart from "./bar/widgetMoreBarLineChart";
 import widgetWordCloud from "./wordcloud/widgetWordCloud";
 import widgetHeatmap from "./heatmap/widgetHeatmap";
+import widgetDecoration from "./widgetDecoration.vue";
+import widgetRankingBoard from "./widgetRankingBoard.vue";
+import widgetRingChart from "./pie/widgetRingChart.vue";
 
 export default {
   name: "WidgetTemp",
@@ -72,7 +75,10 @@ export default {
     widgetMoreBarLineChart,
     widgetWordCloud,
     widgetHeatmap,
-    widgetBorder
+    widgetBorder,
+    widgetDecoration,
+    widgetRankingBoard,
+    widgetRingChart
   },
   model: {
     prop: "value",

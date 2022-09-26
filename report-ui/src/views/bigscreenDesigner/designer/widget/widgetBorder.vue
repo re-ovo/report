@@ -14,7 +14,11 @@
         },
         data() {
             return {
-                options: {}
+                options: {
+                    setup: {
+                      borderType: 'dv-border-box-1'
+                    }
+                }
             };
         },
         computed: {

@@ -16,7 +16,12 @@ export default {
   },
   data() {
     return {
-      options: {}
+      options: {
+        setup: {
+          autoplay: true,
+          loop: true
+        }
+      }
     };
   },
   computed: {

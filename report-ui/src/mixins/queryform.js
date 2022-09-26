@@ -120,7 +120,8 @@ export default {
         return this.barOrLineChartFn(params.chartProperties, data);
       } else if (
         chartType == "widget-piechart" ||
-        chartType == "widget-funnel"
+        chartType == "widget-funnel" ||
+        chartType == "widget-ranking-board"
       ) {
         return this.piechartFn(params.chartProperties, data);
       } else if (chartType == "widget-text") {
@@ -205,7 +206,11 @@ export default {
         for (const key in chartProperties) {
           const value = chartProperties[key];
           if (value === "name") {
-            obj["name"] = data[i][key];
+            if(obj["name"] == undefined){
+             obj["name"] = data[i][key];
+            } else {
+              obj["name"] += " || " + data[i][key];
+            }
           } else {
             obj["value"] = data[i][key];
           }
